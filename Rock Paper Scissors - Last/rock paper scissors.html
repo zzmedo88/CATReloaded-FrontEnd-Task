@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissor</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p>Rock Paper Scissors.</p>
+        <button class="Rock" onclick="select('rock') ">
+            <img src="imgs/rock-emoji.png" class="move-icon">
+        </button>
+        <button class="Paper" onclick="select('paper')">
+            <img src="imgs/paper-emoji.png" class="move-icon">
+        </button>
+        <button class="Scissor" onclick="select('scissors')">
+            <img src="imgs/scissors-emoji.png" class="move-icon">
+        </button>
+        <p class="p1"></p>
+        <p class="p2"></p>
+        <button class="reset" onclick="reset();" >Reset</button>
+        <button class="auto" onclick="autoPlay()">auto play</button>
+        <script src="main.js">
+        </script>
+    </body>
+</html>
